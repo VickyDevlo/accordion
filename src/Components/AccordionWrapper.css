@@ -1,0 +1,40 @@
+.Wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.Accordion {
+    width: 700px;
+}
+
+.item {
+    background-color: black;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.title {
+    color: white;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden; 
+}
+
+.content.show {
+    color: white;
+    line-height: 25px; 
+    letter-spacing: 2px;
+    height: auto;
+    max-height: 9999px;
+}
