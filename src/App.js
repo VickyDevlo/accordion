@@ -33,13 +33,13 @@ function App() {
   const [active, setsetActive] = useState(null);
 
   const toggle = (id) => {
+    console.log("ID", id);
     active === id ? setsetActive(null) : setsetActive(id);
   };
 
-  console.log(Data);
   return (
     <div className="App">
-      <AccordionWrapper data={Data} toggle={toggle} active={active} />
+      <AccordionWrapper data={Data} active={active} toggle={toggle} />
     </div>
   );
 }
