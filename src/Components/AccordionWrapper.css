@@ -12,9 +12,8 @@
 }
 
 .itemlist {
-    background-color: rgb(190, 190, 190);
-    border: 3px solid black;
-    border-radius: 7px;
+    background-color: rgb(164, 209, 238);
+    border-radius: 6px;
     margin-bottom: 5px;
     padding: 10px 20px;
 }
@@ -38,7 +37,7 @@
 
 .content.show {
     font-size: 18px;
-    color: crimson;
+    color: rgb(255 70 29);
     font-weight: bold;
     line-height: 25px;
     letter-spacing: 1.5px;
