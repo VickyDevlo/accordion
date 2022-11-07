@@ -12,8 +12,9 @@
 }
 
 .itemlist {
-    background-color: black;
-    border: 2px solid white;
+    background-color: rgb(190, 190, 190);
+    border: 3px solid black;
+    border-radius: 7px;
     margin-bottom: 5px;
     padding: 10px 20px;
 }
@@ -23,7 +24,7 @@
 }
 
 .title {
-    color: white;
+    color: black;
     letter-spacing: 3px;
     display: flex;
     justify-content: space-between;
@@ -36,9 +37,11 @@
 }
 
 .content.show {
-    color: white;
+    font-size: 18px;
+    color: crimson;
+    font-weight: bold;
     line-height: 25px;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     height: auto;
     max-height: 9999px;
 }

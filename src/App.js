@@ -1,8 +1,9 @@
 import { useState } from "react";
-import "./App.css";
 import AccordionWrapper from "./Components/AccordionWrapper";
+import "./App.css";
 
 function App() {
+  
   const Data = [
     {
       id: 1,
