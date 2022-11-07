@@ -30,16 +30,20 @@ function App() {
     },
   ];
 
-  const [active, setsetActive] = useState(null);
+  const [active, setActive] = useState(null);
 
-  const toggle = (id) => {
+  const toggleHandler = (id) => {
     console.log("ID", id);
-    active === id ? setsetActive(null) : setsetActive(id);
+    active === id ? setActive(null) : setActive(id);
   };
 
   return (
     <div className="App">
-      <AccordionWrapper data={Data} active={active} toggle={toggle} />
+      <AccordionWrapper
+        data={Data}
+        active={active}
+        toggleHandler={toggleHandler}
+      />
     </div>
   );
 }

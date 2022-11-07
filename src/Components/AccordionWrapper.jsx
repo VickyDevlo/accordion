@@ -1,15 +1,15 @@
 import React from "react";
 import "./AccordionWrapper.css";
 
-const AccordionWrapper = ({ data, toggle, active }) => {
+const AccordionWrapper = ({ data, toggleHandler, active }) => {
   return (
     <>
-      <div className="wrapper">
-        <div className="accordion">
+      <div className="container">
+        <div className="accordionWrapper">
           {data.map((item) => {
             return (
-              <div className="item" key={item.id}>
-                <div className="title" onClick={() => toggle(item.id)}>
+              <div className="itemlist" key={item.id}>
+                <div className="title" onClick={() => toggleHandler(item.id)}>
                   <h2>{item.question}</h2>
                   <span className="btnActive">
                     {active === item.id ? "-" : "+"}
