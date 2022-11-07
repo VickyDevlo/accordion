@@ -13,18 +13,18 @@
 
 .itemlist {
     background-color: rgb(164, 209, 238);
-    border-radius: 6px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+    border-radius: 4px;
     padding: 10px 20px;
 }
 
-.btnActive {
+.btn {
     font-size: 40px;
 }
 
 .title {
     color: black;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
@@ -37,7 +37,7 @@
 
 .content.show {
     font-size: 18px;
-    color: rgb(255 70 29);
+    color: rgb(0, 89, 255);
     font-weight: bold;
     line-height: 25px;
     letter-spacing: 1.5px;

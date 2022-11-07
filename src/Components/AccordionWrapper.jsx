@@ -11,7 +11,7 @@ const AccordionWrapper = ({ data, toggleHandler, active }) => {
             <div className="itemlist" key={item.id}>
               <div className="title" onClick={() => toggleHandler(item.id)}>
                 <h2>{item.question}</h2>
-                <span className="btnActive">
+                <span className="btn">
                   {active === item.id ? "-" : "+"}
                 </span>
               </div>
