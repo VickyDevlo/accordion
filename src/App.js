@@ -3,7 +3,7 @@ import AccordionWrapper from "./Components/AccordionWrapper";
 import "./App.css";
 
 function App() {
-
+  
   const Data = [
     {
       id: 1,
@@ -34,6 +34,7 @@ function App() {
   const [active, setActive] = useState(null);
 
   const toggleHandler = (id) => {
+    console.log(id);
     active === id ? setActive(null) : setActive(id);
   };
 

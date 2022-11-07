@@ -35,12 +35,15 @@
     overflow: hidden;
 }
 
-.content.show {
+.show {
     font-size: 18px;
-    color: rgb(0, 89, 255);
+    margin-bottom: 2px;
+    text-align: left;
+    color: darkblue;
     font-weight: bold;
     line-height: 25px;
     letter-spacing: 1.5px;
     height: auto;
-    max-height: 9999px;
+
+    max-height: max-content;
 }
